@@ -34,7 +34,7 @@ output:
 
 ## **Relationships between variables**   
 
-two variables tha show some connection with one another are called associated 
+two variables that show some connection with one another are called associated 
 (dependent)
 
 if the variables are not associated then are independent
@@ -77,15 +77,42 @@ and as *inference study*: Generalized the idea to the population
 
 * Voluntary response: Occurs when the sample consists of people who volunteer to respond
 
+### **Sampling methods**
+
+* **Simple random sample**: each case is equally likely to be selected
+* **Sratified sample**: Divide the population into homogenous stata the randmly sample form within each stratum
+* **Cluster sample**: Divide the population clusters, randomly sample a few clusters, then sample **all** observations within these clusters
+* **Multistage sample**: Divide the population clusters, randomly sample a few clusters, then **randomly** sample all observations within these clusters.
 
 
+## **Experimental Design**
 
+* **Control**: Compare treatment to a control group 
+* **Randomize**: Randomly assign subjects for treatment
+* **Replicate**: Collect a sufficiently large sample, or replicate the entire study
+* **Block**: Block variables know or suspected to affect the outcome
 
+### **Blocking**
 
+It is like **stratifying**, but instead of doing in the sampling part, is used in the random assignment part 
 
+it can be used to determine if a treatment has different effects across different segments of the population 
 
+### **Blocking vs. explanatory variables**
 
+**Explanatory variables:** the treatment - the conditions that we can impose on experiment units
 
+**Block variables:** Characteristics that the experimental units come with, that we would like to control.   
 
+### **Blocking vs. explanatory variables**
 
+**Placebo**
+**Placebo effect**
+**blinding**: experimental units dont know which group they are in 
+**double-blind**: experimental units and researchers dont know the group of assignment 
 
+## **Random sample assignment - Random assignment**
+
+*Random sample assignment ---------------> Generalizability*
+
+*Random assignment ----------------------> Causality*

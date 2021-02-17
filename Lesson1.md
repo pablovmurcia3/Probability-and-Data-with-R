@@ -116,3 +116,5 @@ it can be used to determine if a treatment has different effects across differen
 *Random sample assignment ---------------> Generalizability*
 
 *Random assignment ----------------------> Causality*
+
+

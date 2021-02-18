@@ -1,0 +1,53 @@
+---
+title: "Lesson3"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## **Exploring Categorical variables**
+
+### **Frequency table and bar plot**
+
+```{r n, fig.align='center'}
+table(mtcars$cyl)
+barplot(table(mtcars$cyl))
+```
+
+*barplot* different form *histogram*
+
+### **Contingency table**
+
+```{r dd, fig.align='center'}
+data(UCBAdmissions)
+DF <- as.data.frame(UCBAdmissions)
+xt <- xtabs(Freq ~ Gender + Admit,data=DF) # CROSS TAB
+xt
+```
+
+### **segmented barplot**
+
+```{r dd4, fig.align='center'}
+barplot(xt)
+```
+
+Visualizing conditional frequency distribution 
+
+the alternative is calculate relative frequency segment barplot
+
+### **Mosaicplot**
+
+### **side-by-side boxplot**
+
+```{r da, fig.align='center'}
+data("airquality")
+library(dplyr)
+airquality <- mutate(airquality, Month = factor(Month)) 
+boxplot(Ozone ~ Month, airquality, xlab = "Month", ylab = "Ozone (ppb)")
+```
+
+

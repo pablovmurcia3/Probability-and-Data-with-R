@@ -94,4 +94,19 @@ boxplot(Ozone ~ Month, airquality, xlab = "Month", ylab = "Ozone (ppb)")
 
 <img src="Lesson3_files/figure-html/da-1.png" style="display: block; margin: auto;" />
 
+## **Introduction to inference**
+
+* Start with the null hypothesis (H0) that represents the status quo  
+* Set an alternative hypothesis (H1) that represents the research question   
+* Conduct a hypothesis test under the assumption that the null hypothesis is true, either via simulation or theoretical methods
+* If the test results suggest the data do not provide convincing evidence for the alternative hypothesis stick with the null hypothesis
+* If they do, reject the null hypothesis in favor of the alternative
+
+**Simulation**
+
+in order to get to the conclusion, we can compare the actual data to a simulated distribution that suppose independence of the variables.
+
+If the simulations do not look like the data ---> reject the null hypothesis
+
+
 

@@ -94,7 +94,7 @@ mean(x)
 ```
 
 ```
-## [1] 0.09417743
+## [1] 0.07803869
 ```
 ### **Median**
 
@@ -107,7 +107,7 @@ median(x)
 ```
 
 ```
-## [1] 0.1429843
+## [1] -0.005044497
 ```
 
 ### **Mode**
@@ -153,7 +153,9 @@ hist(y,  main = paste("with sd =", sd(y)) )
 
 <img src="Lesson2_files/figure-html/sd-1.png" style="display: block; margin: auto;" />
 
-* reason to sum: 1) get rid of negative distances, 2)increase larger deviations more than smaller ones so thAt they are weighted more heavily 
+reason to sum:       
+1. get rid of negative distances    
+2. increase larger deviations more than smaller ones so that they are weighted more heavily   
 
 ### **Standard deviation**  
 
@@ -174,7 +176,7 @@ IQR(x)
 ```
 
 ```
-## [1] 4.235106
+## [1] 4.084044
 ```
 
 ```r
@@ -182,7 +184,7 @@ IQR(y)
 ```
 
 ```
-## [1] 26.76188
+## [1] 27.59453
 ```
 
 ```r

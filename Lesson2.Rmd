@@ -126,7 +126,9 @@ hist(x,  main = paste("with sd =", sd(x)))
 hist(y,  main = paste("with sd =", sd(y)) )
 ```
 
-* reason to sum: 1) get rid of negative distances, 2)increase larger deviations more than smaller ones so thAt they are weighted more heavily 
+Reason to sum:       
+1. get rid of negative distances    
+2. increase larger deviations more than smaller ones so that they are weighted more heavily   
 
 ### **Standard deviation**  
 

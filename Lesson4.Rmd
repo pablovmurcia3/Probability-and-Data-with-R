@@ -42,7 +42,7 @@ In a *Random Process* we know what outcomes could happen, but we don´t know whi
 *Coin is memoryless*: The probability of heads on the 11th toss is the same as the probability of heads in the 10th toss, or any previous tosses
 P(Head on the 11th toss) = P(Head on the 11th toss) = 0.5
 
-*Gambler´s fallacy/law of averages*: Random processes ares supposed to compensate for whatever happened in the past.... no, common misunderstanding of the law of large numbers
+*Gambler´s fallacy/law of averages*: Random processes are supposed to compensate for whatever happened in the past.... no, common misunderstanding of the law of large numbers
 
 
 ## **Disjoint Events + General Addition Rule**
@@ -180,7 +180,17 @@ The 6 options and their relative frequencies is like a population that we don´t
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## **Examples**
+## **Disjoint vs. Independent**
+
+
+Disjointness is about events happening at the same time. While independence os about processes not affecting each other.
+
+
+<center>
+![Pf](C:\Users\pablo\Desktop\Probability-and-Data-with-R\Images\ff.PNG)
+</center>
+
+**Note**: Disjoint events with non zero probability are always dependent on each other.Because if we know that one happened, we know that the other one cannot happen
 
 
 

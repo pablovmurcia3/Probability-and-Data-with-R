@@ -1,6 +1,8 @@
 ---
 title: "Lesson5"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
  
@@ -44,6 +46,9 @@ pnorm(1800, mean = 1500, sd=300)
 
 pnorm((1800-1500)/300, mean = 0, sd=1)
 
+1- pnorm(34, mean = 24, sd = 4)
+
+
 ```
 
 or we can find cutoff values corresponding to a desired percentile
@@ -84,3 +89,15 @@ median(y)
 ```
 
 https://rstudio-pubs-static.s3.amazonaws.com/198393_3b9d87c451334863a0850be4ae605e39.html
+
+
+
+```{r}
+1- pnorm(50, mean = 45, sd=3.2)
+
+pnorm(50, mean = 45, sd=3.2, lower.tail = FALSE)
+
+qnorm(0.2, 77, 5)
+
+
+```

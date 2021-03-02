@@ -63,6 +63,14 @@ pnorm((1800-1500)/300, mean = 0, sd=1)
 ## [1] 0.8413447
 ```
 
+```r
+1- pnorm(34, mean = 24, sd = 4)
+```
+
+```
+## [1] 0.006209665
+```
+
 or we can find cutoff values corresponding to a desired percentile
 
 
@@ -117,7 +125,34 @@ median(y)
 ```
 
 ```
-## [1] 0.7236375
+## [1] 0.7833457
 ```
 
 https://rstudio-pubs-static.s3.amazonaws.com/198393_3b9d87c451334863a0850be4ae605e39.html
+
+
+
+
+```r
+1- pnorm(50, mean = 45, sd=3.2)
+```
+
+```
+## [1] 0.05908512
+```
+
+```r
+pnorm(50, mean = 45, sd=3.2, lower.tail = FALSE)
+```
+
+```
+## [1] 0.05908512
+```
+
+```r
+qnorm(0.2, 77, 5)
+```
+
+```
+## [1] 72.79189
+```

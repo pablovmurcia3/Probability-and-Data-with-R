@@ -181,7 +181,7 @@ The 6 options and their relative frequencies is like a population that we don´t
 ## **Disjoint vs. Independent**
 
 
-Disjointness is about events happening at the same time. While independence os about processes not affecting each other.
+Disjointness is about events happening at the same time. While independence is about processes not affecting each other.
 
 
 <center>
@@ -191,12 +191,96 @@ Disjointness is about events happening at the same time. While independence os a
 **Note**: Disjoint events with non zero probability are always dependent on each other.Because if we know that one happened, we know that the other one cannot happen
 
 
+<center>
+![Pf](C:\Users\pablo\Desktop\Probability-and-Data-with-R\Images\ff.PNG)
+</center>
+
+## **Conditional Probability**
+
+## **Marginal Probability**
+
+In a contingency table we look at the margins to calculate the marginal probabilities
+
+<center>
+![Pf](C:\Users\pablo\Desktop\Probability-and-Data-with-R\Images\margi.PNG)
+</center>
 
 
+## **Joint Probability**
+
+In a contingency table we look at the intersection of the events of interest to calculate the joint probability. Also, in a Venn diagram we can see the joint probability as the intersection between the circles. 
+
+<center>
+![Pf](C:\Users\pablo\Desktop\Probability-and-Data-with-R\Images\joi.PNG)
+</center>
 
 
+## **Conditional Probability**
 
 
+In a contingency table, we fix a column or row and only use the information registered on it.
+
+<center>
+![Pf](C:\Users\pablo\Desktop\Probability-and-Data-with-R\Images\cond.PNG)
+</center>
 
 
+In a formal way, we have the ***Baye´s Theorem***
 
+
+<center>
+![Pf](C:\Users\pablo\Desktop\Probability-and-Data-with-R\Images\formu.PNG)
+</center>
+
+
+With this formula now **we can have an expression for the join probability of two events that are dependent**
+
+<center>
+![Pf](C:\Users\pablo\Desktop\Probability-and-Data-with-R\Images\nue.PNG)
+</center>
+
+## **Independence and conditional probabilities**
+
+if two events are independent: P(A|B) = P(A)
+***Conceptually***: Giving B doesn´t tell us anything about A
+***Mathematically***: 
+<center>
+![Pf](C:\Users\pablo\Desktop\Probability-and-Data-with-R\Images\math.PNG)
+</center>
+
+## **Probability trees**
+
+See diapos
+
+## **Bayesian Inference**
+
+With probability trees we can calculate a *posterior probability*
+
+**posterior probability: P(hypothesis|data)**: It tells us the probability of a hypothesis we set forth, given the data we just observed
+
+depends on:
+
+* Prior probability 
+* Observed data 
+
+This is different than what we calculated at the end of the randomization test on gender discrimination - the probability of observed or more extreme data given the null hypothesis being true, i.e. P(data|hypothesis) also called a p-value
+
+In the bayesian approach, we evaluate claims iteratively as we collect more data.
+
+In other words, we *update* our prior with our posterior probability from the previous iteration.
+
+## **Example**
+
+<center>
+![Pf](C:\Users\pablo\Desktop\Probability-and-Data-with-R\Images\1.PNG)
+</center>
+
+<center>
+![Pf](C:\Users\pablo\Desktop\Probability-and-Data-with-R\Images\2.PNG)
+</center>
+<center>
+
+![Pf](C:\Users\pablo\Desktop\Probability-and-Data-with-R\Images\3.PNG)
+</center>
+
+ 
